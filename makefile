@@ -24,4 +24,4 @@ $(OBJS): $(SRCS)
 	$(CXX) $(CXXFLAGS) -c $(@:.o=.cpp)
 
 clean:
-	rm *.o average change tempConvert
+	rm *.o fileAdder minmax numGuess sum.txt

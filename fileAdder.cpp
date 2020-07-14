@@ -21,7 +21,8 @@ int main()
     std::string fileName;
 
     // Prompt for the name of the file to read
-    std::cout << "Please enter your filename." << std::endl;
+    std::cout << "Please enter your filename (you can use example.txt if you haven't created)." << std::endl;
+    std::cout << "(you can type example.txt if you haven't created a file in this directory)." << std::endl;
     std::cin >> fileName;
 
     // Try to open the file based on the name of the file provided
